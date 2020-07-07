@@ -1,4 +1,104 @@
-body {
-    background-color: aquamarine;
-
+:root {
+    --primary-text-color: #212121;
+    --text-color:  #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
 }
+
+
+body {
+    color: var(--text-color);
+    background-color: var(--primary-white-color);
+} 
+
+.logo {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav -auth */
+.site-nav a {
+    color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--primary-text-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--primary-white-color);
+}
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* features */
+.features .title {
+    color: var(--primary-text-color);
+}
+.features .text {
+    color: var(--text-color);
+}
+.features .pic:hover,
+.features .pic:focus {
+    color: var(--accent-color);
+}
+
+.work .text {
+    color: var(--primary-white-color);
+    background: rgba(47, 48, 58, 0.8);
+}
+
+/* наша команда */
+.section {
+    background-color: #F5F4FA;
+}
+.team .team-title {
+    color: var(--primary-text-color);
+    position: absolute;
+}
+.team .team-text {
+    color: var(--text-color);
+}
+
+.list .social-links {
+    color: var(--text-color);
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: var(--accent-color);
+}
+
+/* buttom */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+  
+/* цвет текста заголовка черный #212121; */
+/* вторичный цвет, абзац, #757575; */
+/* белый цвет #FFFFFF; */
+/* емейл напис rgba(255, 255, 255, 0.6) */
+/*  иконки background: #E5E5E5; */
+/* страниця вторичний цвет background: #F5F4FA; */
+/* интерактивная подсветка цвет  #2196F3; */
+/*  фон надписов "чем мы занимаемся"background: rgba(47, 48, 58, 0.8); */
+/* фон наша команда background: #F5F4FA; */
