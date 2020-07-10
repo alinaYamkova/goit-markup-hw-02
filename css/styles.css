@@ -11,7 +11,7 @@ body {
     background-color: var(--primary-white-color);
 } 
 
-.logo {
+.logo-header {
     text-decoration: none;
     color: var(--primary-text-color);
     font-weight: bold;
@@ -28,12 +28,16 @@ body {
 
 /* site-nav -auth */
 .site-nav a {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--primary-text-color);
+    color: var(--accent-color);
+}
+
+.site-nav .curent-link {
+    color: var(--accent-color);
 }
 
 /* hero */
@@ -51,8 +55,8 @@ body {
 .features .text {
     color: var(--text-color);
 }
-.features .pic:hover,
-.features .pic:focus {
+.list.features .pic:hover,
+.list.features .pic:focus {
     color: var(--accent-color);
 }
 
@@ -82,18 +86,66 @@ body {
     color: var(--accent-color);
 }
 
-/* buttom */
+/* button */
 .button {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 32px;
+    border-radius: 4px;
 }
 
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
   }
+
+.footer {
+    background: #2F303A;
+}
+
+.logo-footer {    
+    color:  var(--accent-color);
+    font-weight: bold;
+    font-size: 26px;
+}
   
-/* цвет текста заголовка черный #212121; */
+.logo-footer span {    
+    color: var(--primary-white-color);
+    font-weight: bold;
+    font-size: 26px; */
+} 
+
+address {
+    color: var(--primary-white-color);
+}
+
+.list .contacts  {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* .list .filters a {
+    display: inline-block ;
+} */
+
+.projects .title {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.projects .text {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+/* цвет текста заголовка черный #21
+
+
+2121; */
 /* вторичный цвет, абзац, #757575; */
 /* белый цвет #FFFFFF; */
 /* емейл напис rgba(255, 255, 255, 0.6) */
