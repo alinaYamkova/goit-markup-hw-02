@@ -73,26 +73,28 @@ h1,h2,h3,h4,h5 {
 
 /* site-nav -auth */
 
-.site-nav.site-auth a {
+.site-nav a,
+.site-auth a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--primary-text-color);
     text-decoration: none;
+    
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
+.site-auth a:hover {
     color: var(--accent-color);
+}
+
+.site-nav a:focus,
+.site-auth a:focus {
+    color: var(--accent-color) 
 }
 
 .site-nav.list .curent-link {
     color: var(--accent-color);
-}
-
-.site-nav a,
-.site-auth a {
-    text-decoration: none;
 }
 
 
@@ -199,9 +201,9 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.team {
+/* .team {
     display: flex;
-}
+} */
 
 .projects .title {
     font-weight: 700;
